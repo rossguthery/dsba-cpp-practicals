@@ -89,6 +89,15 @@
 		<Unit filename="/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex3.cpp">
 			<Option target="practical_2"/>
 		</Unit>
+		<Unit filename="/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex4.cpp">
+			<Option target="practical_2"/>
+		</Unit>
+		<Unit filename="/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex5.cpp">
+			<Option target="practical_2"/>
+		</Unit>
+		<Unit filename="/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex6.cpp">
+			<Option target="practical_2"/>
+		</Unit>
 		<Unit filename="/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/main.cpp">
 			<Option target="practical_2"/>
 		</Unit>

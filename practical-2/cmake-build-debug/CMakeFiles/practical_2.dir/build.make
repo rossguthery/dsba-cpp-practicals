@@ -129,12 +129,54 @@ CMakeFiles/practical_2.dir/ex3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_2.dir/ex3.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex3.cpp -o CMakeFiles/practical_2.dir/ex3.cpp.s
 
+CMakeFiles/practical_2.dir/ex4.cpp.o: CMakeFiles/practical_2.dir/flags.make
+CMakeFiles/practical_2.dir/ex4.cpp.o: ../ex4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/practical_2.dir/ex4.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_2.dir/ex4.cpp.o -c /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex4.cpp
+
+CMakeFiles/practical_2.dir/ex4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practical_2.dir/ex4.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex4.cpp > CMakeFiles/practical_2.dir/ex4.cpp.i
+
+CMakeFiles/practical_2.dir/ex4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_2.dir/ex4.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex4.cpp -o CMakeFiles/practical_2.dir/ex4.cpp.s
+
+CMakeFiles/practical_2.dir/ex5.cpp.o: CMakeFiles/practical_2.dir/flags.make
+CMakeFiles/practical_2.dir/ex5.cpp.o: ../ex5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/practical_2.dir/ex5.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_2.dir/ex5.cpp.o -c /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex5.cpp
+
+CMakeFiles/practical_2.dir/ex5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practical_2.dir/ex5.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex5.cpp > CMakeFiles/practical_2.dir/ex5.cpp.i
+
+CMakeFiles/practical_2.dir/ex5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_2.dir/ex5.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex5.cpp -o CMakeFiles/practical_2.dir/ex5.cpp.s
+
+CMakeFiles/practical_2.dir/ex6.cpp.o: CMakeFiles/practical_2.dir/flags.make
+CMakeFiles/practical_2.dir/ex6.cpp.o: ../ex6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/practical_2.dir/ex6.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_2.dir/ex6.cpp.o -c /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex6.cpp
+
+CMakeFiles/practical_2.dir/ex6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practical_2.dir/ex6.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex6.cpp > CMakeFiles/practical_2.dir/ex6.cpp.i
+
+CMakeFiles/practical_2.dir/ex6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_2.dir/ex6.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex6.cpp -o CMakeFiles/practical_2.dir/ex6.cpp.s
+
 # Object files for target practical_2
 practical_2_OBJECTS = \
 "CMakeFiles/practical_2.dir/main.cpp.o" \
 "CMakeFiles/practical_2.dir/ex1.cpp.o" \
 "CMakeFiles/practical_2.dir/ex2.cpp.o" \
-"CMakeFiles/practical_2.dir/ex3.cpp.o"
+"CMakeFiles/practical_2.dir/ex3.cpp.o" \
+"CMakeFiles/practical_2.dir/ex4.cpp.o" \
+"CMakeFiles/practical_2.dir/ex5.cpp.o" \
+"CMakeFiles/practical_2.dir/ex6.cpp.o"
 
 # External object files for target practical_2
 practical_2_EXTERNAL_OBJECTS =
@@ -143,9 +185,12 @@ practical_2: CMakeFiles/practical_2.dir/main.cpp.o
 practical_2: CMakeFiles/practical_2.dir/ex1.cpp.o
 practical_2: CMakeFiles/practical_2.dir/ex2.cpp.o
 practical_2: CMakeFiles/practical_2.dir/ex3.cpp.o
+practical_2: CMakeFiles/practical_2.dir/ex4.cpp.o
+practical_2: CMakeFiles/practical_2.dir/ex5.cpp.o
+practical_2: CMakeFiles/practical_2.dir/ex6.cpp.o
 practical_2: CMakeFiles/practical_2.dir/build.make
 practical_2: CMakeFiles/practical_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable practical_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable practical_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practical_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

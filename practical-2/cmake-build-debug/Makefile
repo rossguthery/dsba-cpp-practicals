@@ -224,6 +224,87 @@ ex3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex3.cpp.s
 .PHONY : ex3.cpp.s
 
+ex4.o: ex4.cpp.o
+
+.PHONY : ex4.o
+
+# target to build an object file
+ex4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex4.cpp.o
+.PHONY : ex4.cpp.o
+
+ex4.i: ex4.cpp.i
+
+.PHONY : ex4.i
+
+# target to preprocess a source file
+ex4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex4.cpp.i
+.PHONY : ex4.cpp.i
+
+ex4.s: ex4.cpp.s
+
+.PHONY : ex4.s
+
+# target to generate assembly for a file
+ex4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex4.cpp.s
+.PHONY : ex4.cpp.s
+
+ex5.o: ex5.cpp.o
+
+.PHONY : ex5.o
+
+# target to build an object file
+ex5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex5.cpp.o
+.PHONY : ex5.cpp.o
+
+ex5.i: ex5.cpp.i
+
+.PHONY : ex5.i
+
+# target to preprocess a source file
+ex5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex5.cpp.i
+.PHONY : ex5.cpp.i
+
+ex5.s: ex5.cpp.s
+
+.PHONY : ex5.s
+
+# target to generate assembly for a file
+ex5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex5.cpp.s
+.PHONY : ex5.cpp.s
+
+ex6.o: ex6.cpp.o
+
+.PHONY : ex6.o
+
+# target to build an object file
+ex6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex6.cpp.o
+.PHONY : ex6.cpp.o
+
+ex6.i: ex6.cpp.i
+
+.PHONY : ex6.i
+
+# target to preprocess a source file
+ex6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex6.cpp.i
+.PHONY : ex6.cpp.i
+
+ex6.s: ex6.cpp.s
+
+.PHONY : ex6.s
+
+# target to generate assembly for a file
+ex6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex6.cpp.s
+.PHONY : ex6.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -269,6 +350,15 @@ help:
 	@echo "... ex3.o"
 	@echo "... ex3.i"
 	@echo "... ex3.s"
+	@echo "... ex4.o"
+	@echo "... ex4.i"
+	@echo "... ex4.s"
+	@echo "... ex5.o"
+	@echo "... ex5.i"
+	@echo "... ex5.s"
+	@echo "... ex6.o"
+	@echo "... ex6.i"
+	@echo "... ex6.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
