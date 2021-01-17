@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex1.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles/practical_2.dir/ex1.cpp.o"
   "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex2.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles/practical_2.dir/ex2.cpp.o"
+  "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex3.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles/practical_2.dir/ex3.cpp.o"
   "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/main.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/cmake-build-debug/CMakeFiles/practical_2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

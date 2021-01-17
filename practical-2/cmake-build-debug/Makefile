@@ -197,6 +197,33 @@ ex2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex2.cpp.s
 .PHONY : ex2.cpp.s
 
+ex3.o: ex3.cpp.o
+
+.PHONY : ex3.o
+
+# target to build an object file
+ex3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex3.cpp.o
+.PHONY : ex3.cpp.o
+
+ex3.i: ex3.cpp.i
+
+.PHONY : ex3.i
+
+# target to preprocess a source file
+ex3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex3.cpp.i
+.PHONY : ex3.cpp.i
+
+ex3.s: ex3.cpp.s
+
+.PHONY : ex3.s
+
+# target to generate assembly for a file
+ex3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex3.cpp.s
+.PHONY : ex3.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -239,6 +266,9 @@ help:
 	@echo "... ex2.o"
 	@echo "... ex2.i"
 	@echo "... ex2.s"
+	@echo "... ex3.o"
+	@echo "... ex3.i"
+	@echo "... ex3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

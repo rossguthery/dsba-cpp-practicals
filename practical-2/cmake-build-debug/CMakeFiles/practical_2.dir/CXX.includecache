@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex1.cpp
+iostream
+-
+cmath
+-
+
+/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex2.cpp
+iostream
+-
+
+/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/ex3.cpp
+iostream
+-
+
+/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-2/main.cpp
+iostream
+-
+
