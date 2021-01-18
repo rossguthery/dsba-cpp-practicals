@@ -305,6 +305,33 @@ ex6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex6.cpp.s
 .PHONY : ex6.cpp.s
 
+ex7.o: ex7.cpp.o
+
+.PHONY : ex7.o
+
+# target to build an object file
+ex7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex7.cpp.o
+.PHONY : ex7.cpp.o
+
+ex7.i: ex7.cpp.i
+
+.PHONY : ex7.i
+
+# target to preprocess a source file
+ex7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex7.cpp.i
+.PHONY : ex7.cpp.i
+
+ex7.s: ex7.cpp.s
+
+.PHONY : ex7.s
+
+# target to generate assembly for a file
+ex7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_2.dir/build.make CMakeFiles/practical_2.dir/ex7.cpp.s
+.PHONY : ex7.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -359,6 +386,9 @@ help:
 	@echo "... ex6.o"
 	@echo "... ex6.i"
 	@echo "... ex6.s"
+	@echo "... ex7.o"
+	@echo "... ex7.i"
+	@echo "... ex7.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
