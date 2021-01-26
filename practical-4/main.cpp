@@ -34,17 +34,51 @@ void eval_poly(double *c, int n) {
     cin >> x;                                            // Reads in user input to x.
     for (j=0; j<=n; j++)                                 // Defines for loop.
         sum += c[j]*pow(x, j);                           // Adds each evaluated term of the polynomial to sum variable.
-    cout << "The value of the polynomial at x=" << x << " is " << sum << "." ;  // Prints final sum value on screen.
+    cout << "The value of the polynomial at x=" << x << " is " << sum << "." << endl;  // Prints final sum on screen.
 }
+
+void add_polys(double *p1, int n1, double *p2, int n2) {
+    int k, l, smaller, larger;
+    if (n2>n1) {
+        smaller=n1;
+        larger=n2;
+    }
+    else {
+        smaller=n2;
+        larger=n1;
+    }
+    double * c=new double[larger+1];
+    for (k=0; k<=smaller; k++)
+        c[k]=p1[k]+p2[k];
+    if (larger==n1) {
+        for (l=k; l<=larger; l++)
+            c[l]=p1[l];
+    }
+    else
+        for (l=k; l<=larger; l++)
+            c[l]=p2[l];
+    print_poly(c, larger);
+}
+
 
 int main() {
     double *p1;
+    double *p2;
     int g1;
+    int g2;
 
+    cout << "———— First Polynomial ———— " << endl;
     p1=read_poly(g1);
     print_poly(p1, g1);
-    eval_poly(p1, g1);
+    cout << "———— Second Polynomial ———— " << endl;
+    p2=read_poly(g2);
+    print_poly(p2, g2);
+    cout << "———— Evaluates Polynomial 1 ———— " << endl;
+    // eval_poly(p1, g1);
+    cout << "———— Sums Polynomials ———— " << endl;
+    add_polys(p1, g1, p2, g2);
 
     delete[] p1;
+    delete[] p2;
     return 0;
 }
