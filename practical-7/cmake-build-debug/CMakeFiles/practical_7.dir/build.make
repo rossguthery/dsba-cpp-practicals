@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7
+CMAKE_SOURCE_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/practical_7.dir/depend.make
@@ -79,43 +79,43 @@ include CMakeFiles/practical_7.dir/flags.make
 
 CMakeFiles/practical_7.dir/main.cpp.o: CMakeFiles/practical_7.dir/flags.make
 CMakeFiles/practical_7.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practical_7.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_7.dir/main.cpp.o -c /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practical_7.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_7.dir/main.cpp.o -c /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/main.cpp
 
 CMakeFiles/practical_7.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practical_7.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/main.cpp > CMakeFiles/practical_7.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/main.cpp > CMakeFiles/practical_7.dir/main.cpp.i
 
 CMakeFiles/practical_7.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_7.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/main.cpp -o CMakeFiles/practical_7.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/main.cpp -o CMakeFiles/practical_7.dir/main.cpp.s
 
-CMakeFiles/practical_7.dir/Exercise_1.cpp.o: CMakeFiles/practical_7.dir/flags.make
-CMakeFiles/practical_7.dir/Exercise_1.cpp.o: ../Exercise\ 1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practical_7.dir/Exercise_1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_7.dir/Exercise_1.cpp.o -c "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/Exercise 1.cpp"
+CMakeFiles/practical_7.dir/ex1.cpp.o: CMakeFiles/practical_7.dir/flags.make
+CMakeFiles/practical_7.dir/ex1.cpp.o: ../ex1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practical_7.dir/ex1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practical_7.dir/ex1.cpp.o -c /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/ex1.cpp
 
-CMakeFiles/practical_7.dir/Exercise_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practical_7.dir/Exercise_1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/Exercise 1.cpp" > CMakeFiles/practical_7.dir/Exercise_1.cpp.i
+CMakeFiles/practical_7.dir/ex1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practical_7.dir/ex1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/ex1.cpp > CMakeFiles/practical_7.dir/ex1.cpp.i
 
-CMakeFiles/practical_7.dir/Exercise_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_7.dir/Exercise_1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/Exercise 1.cpp" -o CMakeFiles/practical_7.dir/Exercise_1.cpp.s
+CMakeFiles/practical_7.dir/ex1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practical_7.dir/ex1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/ex1.cpp -o CMakeFiles/practical_7.dir/ex1.cpp.s
 
 # Object files for target practical_7
 practical_7_OBJECTS = \
 "CMakeFiles/practical_7.dir/main.cpp.o" \
-"CMakeFiles/practical_7.dir/Exercise_1.cpp.o"
+"CMakeFiles/practical_7.dir/ex1.cpp.o"
 
 # External object files for target practical_7
 practical_7_EXTERNAL_OBJECTS =
 
 practical_7: CMakeFiles/practical_7.dir/main.cpp.o
-practical_7: CMakeFiles/practical_7.dir/Exercise_1.cpp.o
+practical_7: CMakeFiles/practical_7.dir/ex1.cpp.o
 practical_7: CMakeFiles/practical_7.dir/build.make
 practical_7: CMakeFiles/practical_7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable practical_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable practical_7"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practical_7.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/practical_7.dir/clean:
 .PHONY : CMakeFiles/practical_7.dir/clean
 
 CMakeFiles/practical_7.dir/depend:
-	cd /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7 /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7 /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles/practical_7.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7 /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7 /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles/practical_7.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/practical_7.dir/depend
 

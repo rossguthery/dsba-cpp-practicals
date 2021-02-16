@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7
+CMAKE_SOURCE_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ practical_7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/build
 .PHONY : practical_7/fast
 
-Exercise_1.o: Exercise_1.cpp.o
+ex1.o: ex1.cpp.o
 
-.PHONY : Exercise_1.o
+.PHONY : ex1.o
 
 # target to build an object file
-Exercise_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/Exercise_1.cpp.o
-.PHONY : Exercise_1.cpp.o
+ex1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/ex1.cpp.o
+.PHONY : ex1.cpp.o
 
-Exercise_1.i: Exercise_1.cpp.i
+ex1.i: ex1.cpp.i
 
-.PHONY : Exercise_1.i
+.PHONY : ex1.i
 
 # target to preprocess a source file
-Exercise_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/Exercise_1.cpp.i
-.PHONY : Exercise_1.cpp.i
+ex1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/ex1.cpp.i
+.PHONY : ex1.cpp.i
 
-Exercise_1.s: Exercise_1.cpp.s
+ex1.s: ex1.cpp.s
 
-.PHONY : Exercise_1.s
+.PHONY : ex1.s
 
 # target to generate assembly for a file
-Exercise_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/Exercise_1.cpp.s
-.PHONY : Exercise_1.cpp.s
+ex1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical_7.dir/build.make CMakeFiles/practical_7.dir/ex1.cpp.s
+.PHONY : ex1.cpp.s
 
 main.o: main.cpp.o
 
@@ -206,9 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... practical_7"
-	@echo "... Exercise_1.o"
-	@echo "... Exercise_1.i"
-	@echo "... Exercise_1.s"
+	@echo "... ex1.o"
+	@echo "... ex1.i"
+	@echo "... ex1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/Exercise 1.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles/practical_7.dir/Exercise_1.cpp.o"
-  "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/main.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical_7/cmake-build-debug/CMakeFiles/practical_7.dir/main.cpp.o"
+  "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/ex1.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles/practical_7.dir/ex1.cpp.o"
+  "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/main.cpp" "/Users/rossguthery/Documents/GitHub/dsba-cpp-practicals/practical-7/cmake-build-debug/CMakeFiles/practical_7.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

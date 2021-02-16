@@ -81,7 +81,7 @@ class Patient {    // A class with an attribute for a patient's name. It also co
             int average = diastolic_sum/patient_record.size();
 
             if (highest_measurement.systolic < 140) {    // Prints out the values that we have found.
-                std::cout << "\nNone of the measurements that have been taken were too high." << std::endl;
+                std::cout << "\nNone of the measurements that have been taken was too high." << std::endl;
             }
 
             else {
@@ -90,7 +90,7 @@ class Patient {    // A class with an attribute for a patient's name. It also co
                 std::cout << "These measurements were taken on " << highest_measurement.date.month << "/" << highest_measurement.date.day << "/" << highest_measurement.date.year << ".\n" << std::endl;
                 std::cout << "The list of highest abnormal systolic values includes the following pressure measurements:" << std::endl;
 
-                for (int i = 0; i < list_highest_measurements.size(); i++) { // Iteratively prints out the elements of the "highest measurement" list. All the values printed should be the same.
+                for (int i = 0; i < list_highest_measurements.size(); i++) { // Iteratively prints out the elements of the "highest measurement" list. All the values printed should be the same.g++
                     std::cout << list_highest_measurements.at(i).systolic << std::endl;
                 }
             }
@@ -117,6 +117,10 @@ int main() {
     john.addRecord(Blood(176,104, Date(19,5,2013)));
     john.addRecord(Blood(176,110, Date(20,5,2013)));
     john.printReport(john.patient_name);
+
+    Patient ross("Ross");    // Testing the "no values too high" exception.
+    ross.addRecord(Blood(100, 100, Date(1,1,2021)));
+    ross.printReport(ross.patient_name);
 
     return 0;
 }
